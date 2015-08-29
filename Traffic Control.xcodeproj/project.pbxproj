@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B815F3711B8CE63C00C6D628 /* RoadBeziers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815F3701B8CE63B00C6D628 /* RoadBeziers.swift */; };
+		B82596E11B924560000F47E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82596DF1B924560000F47E0 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		B82596E21B924560000F47E0 /* RoadBeziers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82596E01B924560000F47E0 /* RoadBeziers.swift */; settings = {ASSET_TAGS = (); }; };
 		B8A238A91B905CD0001A378C /* AdditionalNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A238A81B905CD0001A378C /* AdditionalNodes.swift */; settings = {ASSET_TAGS = (); }; };
 		B8FF38381B89EC5300126F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FF38371B89EC5300126F4E /* AppDelegate.swift */; };
 		B8FF383A1B89EC5300126F4E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B8FF38391B89EC5300126F4E /* GameScene.sks */; };
@@ -17,12 +18,12 @@
 		B8FF38431B89EC5300126F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8FF38421B89EC5300126F4E /* Assets.xcassets */; };
 		B8FF38461B89EC5300126F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FF38441B89EC5300126F4E /* LaunchScreen.storyboard */; };
 		B8FF384E1B89ED8900126F4E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FF384D1B89ED8900126F4E /* Car.swift */; };
-		B8FF38501B89F89700126F4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FF384F1B89F89700126F4E /* Constants.swift */; };
 		B8FF386D1B8A414300126F4E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FF386C1B8A414300126F4E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B815F3701B8CE63B00C6D628 /* RoadBeziers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoadBeziers.swift; path = ../RoadBeziers.swift; sourceTree = "<group>"; };
+		B82596DF1B924560000F47E0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B82596E01B924560000F47E0 /* RoadBeziers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadBeziers.swift; sourceTree = "<group>"; };
 		B8A238A81B905CD0001A378C /* AdditionalNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalNodes.swift; sourceTree = "<group>"; };
 		B8FF38341B89EC5300126F4E /* Traffic Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FF38371B89EC5300126F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		B8FF38451B89EC5300126F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8FF38471B89EC5300126F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8FF384D1B89ED8900126F4E /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		B8FF384F1B89F89700126F4E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
 		B8FF386C1B8A414300126F4E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,8 +78,8 @@
 				B8FF38471B89EC5300126F4E /* Info.plist */,
 				B8FF384D1B89ED8900126F4E /* Car.swift */,
 				B8FF386C1B8A414300126F4E /* Extensions.swift */,
-				B815F3701B8CE63B00C6D628 /* RoadBeziers.swift */,
-				B8FF384F1B89F89700126F4E /* Constants.swift */,
+				B82596DF1B924560000F47E0 /* Constants.swift */,
+				B82596E01B924560000F47E0 /* RoadBeziers.swift */,
 				B8A238A81B905CD0001A378C /* AdditionalNodes.swift */,
 			);
 			path = CarrTest;
@@ -156,14 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8FF38501B89F89700126F4E /* Constants.swift in Sources */,
 				B8FF386D1B8A414300126F4E /* Extensions.swift in Sources */,
 				B8A238A91B905CD0001A378C /* AdditionalNodes.swift in Sources */,
 				B8FF383C1B89EC5300126F4E /* GameScene.swift in Sources */,
-				B815F3711B8CE63C00C6D628 /* RoadBeziers.swift in Sources */,
+				B82596E21B924560000F47E0 /* RoadBeziers.swift in Sources */,
 				B8FF383E1B89EC5300126F4E /* GameViewController.swift in Sources */,
 				B8FF384E1B89ED8900126F4E /* Car.swift in Sources */,
 				B8FF38381B89EC5300126F4E /* AppDelegate.swift in Sources */,
+				B82596E11B924560000F47E0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
